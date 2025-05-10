@@ -18,7 +18,7 @@ All logic written from scratch with a custom lexer, parser, and executor archite
 ## ✨ Features
 
 - 🧠 **Custom Lexer & Parser**  
-  Built from scratch to tokenize, parse, and construct command trees following POSIX syntax.
+  Built from scratch to tokenize, parse, and construct abstract syntax trees.
 
 - ⚙️ **Execution Engine**  
   Executes commands with pipelines, logical ops (`&&`, `||`), redirections, and subshells.
@@ -30,16 +30,16 @@ All logic written from scratch with a custom lexer, parser, and executor archite
   Robust `getenv`, `setenv`, and `unsetenv` functionality.
 
 - 🔍 **Word & Parameter Expansion**  
-  Handles variables (`$VAR`), wildcards (`*`), quotes, and more.
+  Handles variables (`$VAR`), wildcards (`*`) and quotes.
 
 - 🗃️ **Redirection & Pipes**  
   Supports `<`, `>`, `>>`, heredocs (`<<`), and multi-command pipelines.
 
 - 📡 **Signal Handling**  
-  Clean handling of `SIGINT`, `SIGQUIT`.
+  Handling of `SIGINT`, `SIGQUIT`.
 
 - 🧪 **Robust Error Handling**  
-  Graceful error messages, status codes, and edge case coverage.
+  Error messages, status codes, and edge case coverage.
 
 - 🧠 **Bonus Features**  
   Includes subshells, command chaining, multi-line prompts, and more.
@@ -57,7 +57,7 @@ make
 
 ---
 
-##⚙ Command Syntax Overview
+## ⚙ Command Syntax Overview
 <details> <summary>🛠 Click to expand</summary>
 
 ```bash
