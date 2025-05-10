@@ -70,6 +70,15 @@ EOF
 export PATH=$PATH:./bin
 (cd srcs && ls)
 ```
+| Built-Ins   | Explanation                            |
+|-------------|----------------------------------------|
+| `cd`        | Change the current directory           |
+| `export`    | Set an environment variable            |
+| `echo`      | Print text to the terminal             |
+| `exit`      | Exit the shell                         |
+| `pwd`       | Print working Dir                      |
+| `unset`     | Unset Env Variable                     |
+| `env`       | Prints Enviorment                      |
 
 Built-in Commands:
 Command	Description
@@ -85,7 +94,7 @@ exit	Exit the shell
 
 ---
 
-##📁 Project Structure
+## 📁 Project Structure
 
 ```plaintext
 minishell/
@@ -98,10 +107,8 @@ minishell/
 │   ├── ms_build_ins.h    → Built-in commands
 │   ├── ms_expander.h     → Variable and wildcard expansion
 │   └── ms_signal.h       → Signal handling
-│
 ├── libft-42/             → Custom standard library functions
 │   └── libft.h, *.c
-│
 ├── srcs/
 │   ├── lexer/            → Tokenization logic
 │   ├── parser/           → Command tree builder
@@ -112,12 +119,11 @@ minishell/
 │   ├── signal/           → Signal handlers
 │   ├── readline/         → Prompt handling
 │   ├── error/            → Error messages
-│   └── main.c            → Entry point
-│
-├── Makefile              → Compilation script
-└── README.md             → This file
+│   └── main.c            
+├── Makefile              
+└── README.md             
 ```
 
-##👨‍💻 Authors
+## 👨‍💻 Authors
 - [@42mgr](https://github.com/42mgr)
 - [@bartsch-tech](https://github.com/bartsch-tech)
