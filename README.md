@@ -80,16 +80,6 @@ export PATH=$PATH:./bin
 | `unset`     | Unset Env Variable                     |
 | `env`       | Prints Enviorment                      |
 
-Built-in Commands:
-Command	Description
-cd	Change directory
-echo	Print arguments to stdout
-pwd	Print working directory
-export	Set environment variable
-unset	Unset environment variable
-env	List environment
-exit	Exit the shell
-
 </details>
 
 ---
