@@ -11,7 +11,8 @@ All logic written from scratch with a custom lexer, parser, and executor archite
 
 ---
 
-![📸 Screenshot of Minishell Prompt](docs/minishell_screenshot.png)
+## DISCLAIMER 
+This is a Show Repository. The original we worked on is [here]. (https://https://github.com/42mgr/42minishell)
 
 ---
 
